@@ -1,0 +1,32 @@
+{
+  "name": "supplier-lead-time-predictor-skill",
+  "version": "1.0.0",
+  "description": "Calculates supplier delay indicators by matching requested delivery dates vs arrival log records.",
+  "author": "alphaparkinc",
+  "category": "logistics",
+  "tags": [
+    "supplier",
+    "lead-time",
+    "logistics",
+    "procurement",
+    "inventory"
+  ],
+  "inputs": {
+    "historical_delays_days": {
+      "type": "array",
+      "description": "List of differences in days (actual - promised): [int]."
+    }
+  },
+  "outputs": {
+    "predicted_delay_days": {
+      "type": "number",
+      "description": "Mean historical delay factor in days."
+    },
+    "reliability_status": {
+      "type": "string",
+      "description": "Grade tier: reliable, variable, high-delay."
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
