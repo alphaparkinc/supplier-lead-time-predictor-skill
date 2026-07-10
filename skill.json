@@ -1,8 +1,8 @@
 {
   "name": "supplier-lead-time-predictor-skill",
   "version": "1.0.0",
-  "description": "Calculates supplier delay indicators by matching requested delivery dates vs arrival log records.",
-  "author": "alphaparkinc",
+  "description": "GenPark AI Agent Skill - Calculates supplier delay indicators by matching requested delivery dates vs arrival log records.",
+  "author": "genpark",
   "category": "logistics",
   "tags": [
     "supplier",
