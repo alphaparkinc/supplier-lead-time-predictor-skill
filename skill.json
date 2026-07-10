@@ -1,5 +1,5 @@
 {
-  "name": "supplier-lead-time-predictor-skill",
+  "name": "genpark-supplier-lead-time-predictor-skill",
   "version": "1.0.0",
   "description": "GenPark AI Agent Skill - Calculates supplier delay indicators by matching requested delivery dates vs arrival log records.",
   "author": "genpark",
