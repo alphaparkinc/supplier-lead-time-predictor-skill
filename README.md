@@ -1,4 +1,4 @@
-# supplier-lead-time-predictor-skill
+# genpark-supplier-lead-time-predictor-skill
 
 > **GenPark AI Agent Skill** -- Supplier delay predictor.
 
